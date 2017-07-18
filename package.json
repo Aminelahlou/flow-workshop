@@ -2,14 +2,22 @@
   "name": "flow-sample",
   "version": "1.0.0",
   "description": "JS@PayPal 2017: Flow Workshop",
-  "main": "1.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel-node",
+    "flow": "flow"
   },
   "repository": {
     "type": "git",
     "url": "git@github.paypal.com:jamuferguson/flow-sample.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "flow-bin": "^0.50.0"
+  }
 }
