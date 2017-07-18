@@ -1,0 +1,15 @@
+{
+  "name": "flow-sample",
+  "version": "1.0.0",
+  "description": "JS@PayPal 2017: Flow Workshop",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.paypal.com:jamuferguson/flow-sample.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
