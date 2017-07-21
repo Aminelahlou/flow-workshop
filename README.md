@@ -56,3 +56,20 @@ or add additional conditional statements needed to satisfy flow.
 - `npm run flow check-contents < 2.js` should show no errors
 - `npm run flow coverage 2.js` should show 100% coverage
 
+## Task 5: Complete 3.js
+
+Create a `formatAmount` function in 3.js that takes as params
+a string or a number and returns a formatted number string
+that is formatted to 2-decimal places. 
+
+After ensuring that the flow typing is working, you can change or remove
+any input into the `formatAmount()` function that is not a string or
+a number.
+
+**Expectation**
+
+- `npm run babel 3.js` should show 6 numbers formatted w/2-decimal places (i.e.  "10.00")
+- `npm run flow check-conents < 3.js` should show no errors
+- `npm run flow coverage 3.js` should show 100%
+
+
