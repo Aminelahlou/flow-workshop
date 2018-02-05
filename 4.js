@@ -24,5 +24,5 @@ async () => {
   });
 }
 async () => {
-  const users: User[] = getUsers()
+  const users: User[] = await getUsers()
 }
